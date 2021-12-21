@@ -1,0 +1,17 @@
+.country-list-item {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  break-inside: avoid-column;
+  background-color: #222222;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.country-list-item > img {
+  max-width: 100%;
+}
+
+.country-list-item > p {
+  padding: 1rem;
+}

@@ -1,0 +1,19 @@
+.detail-card-wrapper {
+  height: calc(100vh - 72px);
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.detail-card {
+  display: grid;
+  gap: 1rem;
+  width: 300px;
+  padding: 1rem;
+  display: grid;
+  text-align: center;
+}
+
+.detail-card > img {
+  width: 100%;
+}

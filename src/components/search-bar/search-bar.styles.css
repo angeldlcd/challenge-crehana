@@ -1,0 +1,11 @@
+.search-bar-wrapper {
+  display: grid;
+  place-content: center;
+}
+
+.search-bar {
+  width: 20rem;
+  padding: 1rem;
+  text-align: center;
+  color: black;
+}

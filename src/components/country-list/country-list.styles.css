@@ -1,0 +1,24 @@
+.country-list {
+  gap: 2rem;
+  width: 100vw;
+  columns: 1;
+  padding: 1rem 4rem;
+}
+
+@media (min-width: 576px) {
+  .country-list {
+    columns: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .country-list {
+    columns: 3;
+  }
+}
+
+@media (min-width: 992px) {
+  .country-list {
+    columns: 4;
+  }
+}
